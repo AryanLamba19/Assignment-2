@@ -1,0 +1,6 @@
+#printing a para with different variables
+name = 'Aryan Lamba'
+sid = '22105107'
+department_name = 'Electronics and Communication Engineering'
+cgpa = '8'
+print(f"Hey, {name} Here! \nMy SID is {sid}. \nI am from {department_name} department and my cgpa is {cgpa}.")
