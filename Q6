@@ -1,0 +1,19 @@
+a = int(input("Length of first side of triangle"))
+b = int(input("Length of second side of the triangle"))
+c = int(input("Length of third side of the triangle"))
+def check():
+  if a==b and b==c and c==a:
+    print("Your triangle is equilateral")
+
+  elif a==b or b==c or c==a:
+    print("Your triangle is isosceles")
+
+  else :
+    print("Your triangle is scalene")
+
+if a>b+c or b>a+c or c>a+b:
+  print("Given sides cannot form a triangle")
+
+else :
+  print("Given sides can form a triangle")
+  check()
