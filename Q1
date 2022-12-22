@@ -1,0 +1,28 @@
+#1(a)
+
+name = "Python is a case sensitive language"
+print(len(name))
+
+#1(b)
+
+str2 = name[::-1]
+print(str2)
+
+#1(c)
+
+s1 = slice(10,35)
+print(name[s1])
+
+#1(d)
+
+name2 = name.replace("a case sensitive","object oriented")
+print(name2)
+
+#1(e)
+
+print(name.find('a'))
+
+#1(f)
+
+str3 = name.replace(" ","")
+print(str3)
